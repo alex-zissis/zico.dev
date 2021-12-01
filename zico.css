@@ -1,0 +1,24 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #e4e5e8;
+}
+
+.c-body {
+    margin: auto;
+    width: 600px;
+}
+
+.c-body__img-container {
+    margin-top: 48px;
+    justify-content: space-evenly;
+    display: flex;
+    height: 450px;
+    max-width: 600px;
+}
+
+.c-body__image-container > img {
+    flex: 1;
+}
